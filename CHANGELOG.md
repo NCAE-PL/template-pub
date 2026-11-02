@@ -13,6 +13,12 @@
 
 
 
+
+## [0.2.10] - 2026-11-02
+
+### Bug Fixes
+- add optional security tests Trivy
+
 ## [0.2.9] - 2026-11-02
 
 ### Bug Fixes
