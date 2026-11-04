@@ -18,6 +18,12 @@
 
 
 
+
+## [0.2.15] - 2026-11-04
+
+### Changes
+- add template for issue (#8)
+
 ## [0.2.14] - 2026-11-03
 
 ### Changes
