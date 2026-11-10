@@ -24,6 +24,12 @@
 
 
 
+
+## [0.2.21] - 2026-11-10
+
+### Changes
+- Merge remote-tracking branch 'origin/dev'
+
 ## [0.2.20] - 2026-11-10
 
 ### Changes
