@@ -19,6 +19,12 @@
 
 
 
+
+## [0.2.16] - 2026-11-10
+
+### Changes
+- add org/project number to issue template (#9)
+
 ## [0.2.15] - 2026-11-04
 
 ### Changes
