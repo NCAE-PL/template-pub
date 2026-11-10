@@ -21,6 +21,12 @@
 
 
 
+
+## [0.2.18] - 2026-11-10
+
+### Changes
+- addition in feature_request org/project number and type (#11)
+
 ## [0.2.17] - 2026-11-10
 
 ### Changes
