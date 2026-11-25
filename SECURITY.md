@@ -2,20 +2,20 @@
 
 ## Supported versions
 
-Only the latest release on [pse-pub](https://github.com/pythonms/pse-pub)
+Only the latest release on [pse-pub](https://github.com/NCAE-PL/template-pub)
 (`main` / newest `vX.Y.Z` tag) receives security fixes.
 
 | Version | Supported |
 |---------|-----------|
-| Latest `vX.Y.Z` on pse-pub | Yes |
+| Latest `vX.Y.Z` on template-pub | Yes |
 | Older releases | No |
-| `.devN` checkpoints on pse-priv | No (development only) |
+| `.devN` checkpoints on template-priv | No (development only) |
 
 ## Reporting a vulnerability
 
 Please **do not** open a public issue for security problems.
 
-1. Prefer [GitHub Security Advisories](https://github.com/pythonms/pse-priv/security/advisories/new)
+1. Prefer [GitHub Security Advisories](https://github.com/NCAE-PL/template-priv/security/advisories/new)
    on this repository, or
 2. Contact the repository owner via GitHub.
 

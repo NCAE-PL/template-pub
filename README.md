@@ -1,6 +1,6 @@
-# pse-priv
+# template-pub
 
-Demo FastAPI + GitHub Actions: prywatne repo rozwojowe z auto-bumpem `.devN` i lustrem wydań do [pse-pub](https://github.com/pythonms/pse-pub) przy każdym squash-merge na `main` (konfiguracja **A**).
+Demo FastAPI + GitHub Actions: prywatne repo rozwojowe z auto-bumpem `.devN` i lustrem wydań do [pse-pub](https://github.com/NCAE-PL/template-pub) przy każdym squash-merge na `main` (konfiguracja **A**).
 
 Szczegóły modelu: [docs/workflows/config-A-mirror-auto.md](docs/workflows/config-A-mirror-auto.md).  
 Porównanie A vs B (Mermaid): [docs/plans/porownanie-1A2A-vs-1B2B.plan.md](docs/plans/porownanie-1A2A-vs-1B2B.plan.md).
@@ -19,17 +19,17 @@ Dwa remote’y, żeby tagi deweloperskie i wydaniowe nie kolidowały w jednym na
 
 ```sh
 git remote -v
-# origin  → github.com/pythonms/pse-priv   (prywatne: gałęzie + tagi .dev*)
-# public  → github.com/pythonms/pse-pub    (publiczne: tylko main + czyste vX.Y.Z)
+# origin  → github.com/NCAE-PL/template-priv   (prywatne: gałęzie + tagi .dev*)
+# public  → github.com/NCAE-PL/template-pub    (publiczne: tylko main + czyste vX.Y.Z)
 
 # jeśli brakuje public:
-git remote add public git@github.com:pythonms/pse-pub.git
+git remote add public git@github.com:NCAE-PL/template-pub.git
 ```
 
 | Remote | Repo | Gałęzie | Tagi |
 |--------|------|---------|------|
-| `origin` | pse-priv | `dev`, `main` | `vX.Y.Z.devN` (checkpointy) oraz `vX.Y.Z` (main) |
-| `public` | pse-pub | `main` | tylko czyste `vX.Y.Z` — **nigdy** `.dev*` |
+| `origin` | template-priv | `dev`, `main` | `vX.Y.Z.devN` (checkpointy) oraz `vX.Y.Z` (main) |
+| `public` | template-pub | `main` | tylko czyste `vX.Y.Z` — **nigdy** `.dev*` |
 
 ## Uruchomienie przez Docker Compose
 
@@ -67,7 +67,7 @@ W ustawieniach repo:
 
 ## Sekret
 
-`PUBLISH_TOKEN` — PAT z `contents:write` do `pythonms/pse-pub`.
+`PUBLISH_TOKEN` — PAT z `contents:write` do `template-pub`.
 
 ## Wersja
 

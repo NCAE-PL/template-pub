@@ -1,7 +1,7 @@
 # Contributing
 
 Thanks for helping improve this project. Development happens in **pse-priv**;
-public releases are mirrored to [pse-pub](https://github.com/pythonms/pse-pub).
+public releases are mirrored to [template-pub](https://github.com/NCAE-PL/template-pub).
 
 ## Workflow
 
