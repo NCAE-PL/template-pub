@@ -5,6 +5,12 @@
 
 
 
+
+## [0.8.5] - 2026-11-25
+
+### Bug Fixes
+- clean up old repo name (#20)
+
 ## [0.8.4] - 2026-11-25
 
 ### Bug Fixes
