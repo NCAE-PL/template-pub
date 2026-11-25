@@ -27,115 +27,275 @@
 
 
 
-## [0.2.23] - 2026-11-17
+
+## [0.8.2] - 2026-11-25
 
 ### Bug Fixes
-- update title (#15)
+- new hope (#17)
 
-## [0.2.22] - 2026-11-17
+<<<<<<< HEAD
 
-### Bug Fixes
-- update title squash (#14)
 
-## [0.2.21] - 2026-11-10
 
-### Changes
-- Merge remote-tracking branch 'origin/dev'
 
-## [0.2.20] - 2026-11-10
 
-### Changes
-- fix blank issue (#13)
 
-## [0.2.19] - 2026-11-10
 
-### Changes
-- Dev (#12)
 
-## [0.2.18] - 2026-11-10
 
-### Changes
-- addition in feature_request org/project number and type (#11)
 
-## [0.2.17] - 2026-11-10
 
-### Changes
-- addition in feature_request org/project number and type (#10)
 
-## [0.2.16] - 2026-11-10
 
-### Changes
-- add org/project number to issue template (#9)
 
-## [0.2.15] - 2026-11-04
 
-### Changes
-- add template for issue (#8)
 
-## [0.2.14] - 2026-11-03
 
-### Changes
-- fix image python (#7)
 
-## [0.2.13] - 2026-11-02
 
-### Changes
-- fix workflow (#6)
 
-## [0.2.12] - 2026-11-02
+=======
 
-### Changes
-- add tests (#5)
 
-## [0.2.11] - 2026-11-02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## [0.8.1] - 2026-11-25
 
 ### Bug Fixes
-- ver. Trivy
+- new hope (#16)
 
-## [0.2.10] - 2026-11-02
-
-### Bug Fixes
-- add optional security tests Trivy
-
-## [0.2.9] - 2026-11-02
-
-### Bug Fixes
-- Readme.md
-
-## [0.2.8] - 2026-11-02
-
-### Changes
-- fix : Point public mirror to NCAE-PL/template-pub
-
-## [0.2.7] - 2026-11-02
-
-### Changes
-- Fix repo  name
-
-## [0.2.6] - 2026-11-02
-
-### Changes
-- Fix merge conflict: version 0.2.5
-
-## [0.2.5] - 2026-11-02
-
-### Changes
-- Dev (#3)
-
-## [0.2.3] - 2026-10-26
-
-### Changes
-- Dev (#2)
-
-## [0.2.1] - 2026-10-26
-
-### Bug Fixes
-- desc (#1)
-
-## [0.2.0] - 2026-10-26
+>>>>>>> 492ec329e961db60f272ee6352cde85abdeb1c24
+## [0.8.0] - 2026-11-24
 
 ### Features
-- add init commit
+- main dascribe (#53)
+
+## [0.7.2] - 2026-11-23
+
+### CI
+- sync issue/PR templates to pse-pub for community checklist (#52)
+
+## [0.7.1] - 2026-11-23
+
+### Documentation
+- add GitHub community standards (license, CoC, contributing, security) (#51)
+
+## [0.7.0] - 2026-11-23
+
+### Features
+- service pse api change (#50)
+
+## [0.6.2] - 2026-11-23
+
+### Bug Fixes
+- create public release tags via API instead of git push (#49)
+
+## [0.6.1] - 2026-11-23
+
+### Bug Fixes
+- create public release tags via API instead of git push (#48)
+
+## [0.6.0] - 2026-11-23
+
+### Features
+- service pse api change (#47)
+
+## [0.5.9] - 2026-11-23
+
+### Bug Fixes
+- align /health and / tests with service field (#46)
+
+## [0.5.8] - 2026-11-23
+
+### CI
+- skip bump on chore(sync) auto-merge from main (#45)
+
+## [0.5.7] - 2026-11-23
+
+### CI
+- skip unit check on Main Release to save Actions minutes (#44)
+
+## [0.5.6] - 2026-11-23
+
+### Documentation
+- info (#43)
+
+## [0.5.5] - 2026-11-23
+
+### Changes
+- Merge pull request #42 from pythonms/dev
+
+## [0.5.4] - 2026-11-23
+
+### Documentation
+- info (#40)
+
+## [0.5.3] - 2026-11-23
+
+### Documentation
+- tidy info.md tagging howto and changelog note (#32)
+
+## [0.5.2] - 2026-11-23
+
+### Documentation
+- tidy info.md tagging howto and changelog note (#31)
+
+## [0.5.1] - 2026-11-20
+
+### Bug Fixes
+- combine bump if branches for ruff SIM114 (#29)
+
+## [0.5.0] - 2026-11-20
+
+### Changes
+- Dev (#27)
+
+## [0.4.1] - 2026-11-20
+
+### Documentation
+- add changelog info (#25)
+
+## [0.4.0] - 2026-11-20
+
+### Documentation
+- add gh CLI example for Dev Build .dev tag dispatch (#24)
+
+## [0.3.6] - 2026-11-18
+
+### Bug Fixes
+- allow main release when squash title is chore(bump) (#20)
+
+## [0.3.2] - 2026-11-18
+
+### Features
+- bump version on every dev push, release max on main (#18)
+
+## [0.3.1] - 2026-11-18
+
+### Documentation
+- clarify health endpoint docstring (#17)
+
+## [0.3.0] - 2026-11-18
+
+### Features
+- auto-open promote PR from dev to main (#16)
+
+## [0.2.1] - 2026-11-17
+
+### Bug Fixes
+- hot fix (#14)
+
+## [0.2.0] - 2026-11-17
+
+### Features
+- some changes (#13)
+
+## [0.1.38] - 2026-11-17
+
+### Changes
+- message change (#12)
+
+## [0.1.37] - 2026-11-17
+
+### Changes
+- new doc string (#11)
+
+## [0.1.36] - 2026-11-10
+
+### Changes
+- Dodaj issue forms: bug i nowa funkcjonalność (#10)
+
+## [0.1.35] - 2026-11-09
+
+### CI
+- add Ruff lint and coverage gate on priv
+
+## [0.1.34] - 2026-11-09
+
+### Changes
+- Merge pull request #7 from pythonms/clean-up
+
+## [0.1.33] - 2026-11-09
+
+### Changes
+- drop gha-workflows inheritance, restore local workflows
+
+## [0.1.32] - 2026-11-09
+
+### Bug Fixes
+- restore Dev Build / Main Release wrappers on local reusable workflows
+
+## [0.1.31] - 2026-11-09
+
+### Bug Fixes
+- vendor gha-workflows locally instead of cross-repo uses
+
+## [0.1.30] - 2026-11-09
+
+### Bug Fixes
+- close remaining CI security findings except action SHA pins
+
+## [0.1.29] - 2026-11-09
+
+### Bug Fixes
+- harden main-release with CI gate and Trivy before pub sync
+
+## [0.1.28] - 2026-11-09
+
+### Bug Fixes
+- apt-get upgrade base image packages for Trivy zlib CVEs
+
+## [0.1.27] - 2026-11-09
+
+### Bug Fixes
+- run container as non-root user for Trivy DS-0002
+
+## [0.1.26] - 2026-11-09
+
+### Bug Fixes
+- pin Trivy action to v0.36.0 tag
+
+## [0.1.25] - 2026-11-09
+
+### CI
+- add Trivy filesystem and image scans on Dev Build
+
+## [0.1.24] - 2026-11-09
+
+### CI
+- split Build & Release back into Dev Build and Main Release
+
+## [0.1.23] - 2026-11-09
+
+### Bug Fixes
+- repair YAML in build-and-release COMMIT_MESSAGE env
+
+## [0.1.22] - 2026-11-09
+
+### CI
+- merge Dev Build and Main Release into one Actions workflow
+
+## [0.1.21] - 2026-11-09
+
+### Chores
+- refresh FLOW_PROBE for workflow test
 
 ## [0.1.20] - 2026-10-19
 
@@ -150,5 +310,5 @@
 ## [0.1.18] - 2026-10-18
 
 ### Changes
-- Merge branch 'main' of https://github.com/mariusz=pse/template-priv
+- Merge branch 'main' of https://github.com/pythonms/pse-priv
 
