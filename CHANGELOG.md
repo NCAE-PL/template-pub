@@ -7,6 +7,12 @@
 
 
 
+
+## [0.8.7] - 2026-11-25
+
+### Bug Fixes
+- addition VULNERABILITY REPORT (#22)
+
 ## [0.8.6] - 2026-11-25
 
 ### Bug Fixes
