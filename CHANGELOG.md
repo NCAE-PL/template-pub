@@ -8,6 +8,12 @@
 
 
 
+
+## [0.8.8] - 2026-11-26
+
+### Bug Fixes
+- addition LICENSE (#24)
+
 ## [0.8.7] - 2026-11-25
 
 ### Bug Fixes
