@@ -1,4 +1,6 @@
-from fastapi import FastAPI
+from typing import Annotated, Any
+
+from fastapi import Body, FastAPI
 
 from __version__ import __version__
 
@@ -30,3 +32,9 @@ def health():
 def version():
     """Return package version for smoke tests."""
     return {"version": __version__, "service": "pse"}
+
+
+@app.post("/echo")
+def echo(payload: Annotated[Any, Body()]) -> Any:
+    """Return echo"""
+    return payload
